@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website - Đăng ký</title>
+    <!-- Tailwind css CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="https://www.vmcdn.ca/f/files/burnabynow/images/arts/movie-film-reel-getty.jpg;w=960" type="image/x-icon">
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen bg-slate-200">
+        <div id="form" class="block bg-slate-50 p-6 rounded-xl shodow-md shadow-slate-300 w-90">
+            <form action="">
+                <h2 class="text-blue-700 text-3xl font-semibold my-4">Đăng ký</h2>
+                <!-- full name -->
+                <div id="fullName" class="flex flex-row">
+                    <!-- first name -->
+                    <div id="firstName" class="w-1/2 mr-1">
+                        <label for="fname" class="text-sm">Họ và tên đệm</label><br>
+                        <input type="text" name="" id="fname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm">
+                    </div>
+                    <!-- last name -->
+                    <div id="lastName" class="w-1/2 mr-1">
+                        <label for="lname" class="text-sm">Tên</label><br>
+                        <input type="text" name="" id="lname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm">
+                    </div>
+                </div>
+                <!-- email -->
+                <label for="email" class="text-sm">Email</label><br>
+                <input type="emial" name="" id="email"
+                    class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm">
+                <!-- password -->
+                <label for="password" class="text-sm">Mật khẩu</label><br>
+                <input type="password" name="" id="password"
+                    class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm">
+                <!-- confirm password -->
+                <label for="confirmPassword" class="text-sm">Xác nhận mật khẩu</label><br>
+                <input type="password" name="" id="confirmPassword"
+                    class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm mb-3">
+                <!-- radio buttons for gender -->   
+                <!-- Sign up / submit button -->
+                <button class="bg-blue-700 w-full rounded-lg">
+                    <a href="#" class="text-center text-white text-xm p-2">Submit</a>
+                </button>
+                <!-- <input type="password" name="" id="signUp"
+                    class="bg-blue-700 w-full h-10 cursor-pointer text-white rounded-md hover:bg-blue-600 hover:outline outline-2 outline-blue-600 outline-offset-2 text-sm"><br> -->
+                <p class="text-xm my-2">Bạn đã có tài khoản? <a href="/src/html/login.html" class="text-blue-600">Đăng nhập</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

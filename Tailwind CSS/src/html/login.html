@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website-Login</title>
+    <link rel="shortcut icon" href="https://www.vmcdn.ca/f/files/burnabynow/images/arts/movie-film-reel-getty.jpg;w=960" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="font-mono bg-[url(https://th.bing.com/th/id/R.34549df98fe65fe3415b8c931f246fbe?rik=8eMy4Z%2fFR4OVFw&pid=ImgRaw&r=0)]">
+    <script>
+        function Username(){
+            var UsernameInput = document.getElementById("username").value;
+            localStorage.setItem("username",UsernameInput);
+            return true;
+        }
+    </script>
+    <div>
+        <form action="/src/html/Successfull-form.html" name="" class="bg-sky-300 flex ml-80 mt-16 w-2/4 h-2/3 rounded-lg max-[412px]:grid max-[412px]:grid-cols-1 max-[412px]:w-[380px] max-[412px]:-ml-[1px]">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg" alt="Eternal: Chủng tộc bất tử" class="-hue-rotate-60 h-[510px] max-[412px]:w-[380px]">
+            </div>
+            <div class="ml-10 mr-5 my-6">
+                <h3 class="text-xl">Chào mừng trở lại</h3>
+                <h5 class="text-black">Đăng nhập vào tài khoản của bạn</h5>
+                <div>
+                    <label for="" class="font-bold">Tài khoản</label><br>
+                    <input type="text" placeholder="Nhập Tài khoản" maxlength="20" id=" Nhập tài khoản" required class="w-80 p-2 rounded-lg mt-3 hover:border-red-600 "><br>
+                    <label for="" class="font-bold">Tên đầy đủ</label><br>
+                    <input type="text" placeholder="Nhập tên đầy đủ" maxlength="30" id="Nhập tên đầy đủ" required class="w-80 p-2 rounded-lg mt-3 hover:border-red-600 "><br>
+                    <label for="" class="font-bold">Mật khẩu</label><br>
+                    <input type="password" placeholder="Nhập mật khẩu" maxlength="30" id="Nhập Tài khoản" required class="w-80 p-2 rounded-lg mt-3 hover:border-red-600 "><br>
+                </div>
+                <p class="text-right">
+                    <a href="#" class="no-underline text-gray-400">Quên mật khẩu?</a>
+                </p>
+                <button class="w-[320px] text-white bg-rose-600 p-2 cursor-pointer hover:ease-in-out hover:bg-amber-400 border-none">Đăng nhập</button>
+                <p class="text-center">
+                    Nếu chưa có tài khoản, hãy nhấp vào đây
+                    <br><span><a href="/src/html/Register.html" class="no-underline ml-2 text-red-600 font-bold">Đăng ký</a></span>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

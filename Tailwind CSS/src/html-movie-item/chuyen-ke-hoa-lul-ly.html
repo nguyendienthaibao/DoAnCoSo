@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website - Chuyện kể hóa lưu ly</title>
+    <link rel="shortcut icon" href="https://www.vmcdn.ca/f/files/burnabynow/images/arts/movie-film-reel-getty.jpg;w=960" type="image/x-icon">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0 box-border font-mono">
+    <script src="/src/js/DatVe.js"></script>
+    <header class="px-4 py-6 flex items-center justify-between font-mono bg-pink-400">
+        <h3 href="" class="font-bold text-xl">
+            <a href="/src/html/index.html" class="text-red-600 font-bold text-5xl uppercase">nkm</a>
+            Nhất Kim Mai
+        </h3>
+        <nav>
+          <ul class="flex items-center justify-center font-semibold">
+            <li class="relative group px-3 py-2">
+              <button class="hover:opacity-50 hover:text-red-500 cursor-default">THỂ LOẠI</button>
+              <div class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+                <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                  <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm"></div>
+                  <div class="relative z-10">
+                    <div class="grid grid-cols-2 gap-6">
+                      <div>
+                        <ul class="mt-3 text-[13px]">
+                        <li>
+                            <a href="/src/html-TheLoai/cotrang-thanthoai.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Cổ Trang - Thần Thoại</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-TheLoai/khoahoc-vientuong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Khoa Học - Viễn Tưởng</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-TheLoai/hoathinh.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600"> Hoạt Hình</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-TheLoai/phieuluu-hanhdong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Phiêu Lưu - Hành Động</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-TheLoai/tamly-tinhcam.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Tâm lý - Tình Cảm</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-TheLoai/kinhdi-ma.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Kinh dị - Ma</a>
+                        </li>
+                        </ul>
+                      </div>
+                    <div>
+                        <ul class="mt-3 text-[13px]">
+                            <li>
+                                <a href="/src/html-TheLoai/giadinh-hocduong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Gia Đình - Học Đường</a>
+                            </li>
+                            <li>
+                                <a href="/src/html-TheLoai/vothuat-kiemhiep.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Võ Thuật - Kiếm Hiệp</a>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="relative group px-3 py-2">
+              <button class="hover:opacity-50 cursor-default">QUỐC GIA</button>
+              <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+                <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                  <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                  <div class="relative z-10">
+                    <ul class="mt-3 text-[13px]">
+                      <li>
+                        <a href="/src/html-QuocGia/vietname.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Việt Nam</a>
+                      </li>
+                      <li>
+                        <a href="/src/html-QuocGia/au-my.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Âu - Mỹ</a>
+                      </li>
+                      <li>
+                        <a href="/src/html-QuocGia/thailan.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Thái Lan</a>
+                      </li>
+                      <li>
+                        <a href="/src/html-QuocGia/ando.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Ấn Độ</a>
+                      </li>
+                      <li>
+                        <a href="/src/html-QuocGia/quocgiakhac.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Quốc Gia Khác</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="relative group px-3 py-2">
+                <button class="hover:opacity-50 cursor-default">PHIM MỚI</button>
+                <div  class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+                  <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                    <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                    <div class="relative z-10">
+                      <ul class="mt-3 text-[13px]">
+                        <li><a href="/src/html-Nam/nam2023.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2023</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-Nam/nam2022.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2022</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-Nam/nam2021.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2021</a>
+                        </li>
+                        <li>
+                            <a href="/src/html-Nam/nam2020.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2020</a>
+                        </li>
+                            <li>
+                                <a href="/src/html-Nam/nam2019.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2019</a>
+                            </li>
+                            <li>
+                                <a href="/src/html-Nam/nam2018.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2018</a>
+                            </li>
+                            <li>
+                                <a href="/src/html-Nam/nam2017.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2017</a>
+                            </li>
+                            <li>
+                                <a href="/src/html-Nam/nam2016.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2016</a>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="relative group px-3 py-2">
+                <a href="/src/html/bapnuoc.html" class="hover:opacity-50 uppercase">đặt đồ ăn/thức uống</a>
+              </li>
+            <li class="relative px-3 py-2">
+              <a href="/src/html/LichChieu.html" class="hover:opacity-50">LỊCH CHIẾU</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li>
+              <a href="/src/html/login.html" class="rounded-full px-3 py-[8px] font-semibold flex items-center">
+                  <svg class="stroke-current" width="10" height="10" stroke-width="2" viewBox="0 0 10 10" aria-hidden="true">
+                    <g fill-rule="evenodd">
+                      <path class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-200" d="M0 5h7"></path>
+                      <path class="opacity-100 group-hover:transform group-hover:translate-x-1 transition ease-in-out duration-200"  d="M1 1l4 4-4 4"></path>
+                    </g>
+                  </svg>
+                <span class="ml-2">Đăng nhập</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main class="">
+        <div class="mx-7 mt-5">
+            <div>
+                <span class="text-2xl">Chuyện kể hóa lưu ly</span>
+                <span class="float-right text-2xl tracking-tighter font-bold">
+                    <i class="fas fa-star text-[#e6ba54]"></i>
+                    <span class="text-amber-600">3.0</span>/5
+                </span><br>
+                <a href="#" class="no-underline text-blue-600 hover:text-blue-600 hover:ease-in-out cursor: hover:duration-[1s]">Cổ trang, ngôn tình, hài hước</a>
+            </div>
+            <div class="flex">
+                <div class="w-[200rem]">
+                    <img src="https://bloganchoi.com/wp-content/uploads/2023/03/chuyen-ke-hoa-luu-ly-6-1.jpg" alt="" class="rounded-lg hover:scale-[1.4] hover:translate-x-[50px] hover:ease-in hover:duration-[1s]"><br>
+                    <div class="w-full">
+                        <span class="p-2 text-xl">45.000</span>
+                        <div class="float-right">
+                            <button class="w-12 text-xl" onclick="btnLike_Click()">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span id="count-like">0</span>
+                            </button>
+                            <button class="w-12 text-xl " onclick="btnDislike_Click()">
+                                <i class="fas fa-thumbs-down"></i>
+                                <span id="count-dislike">0</span>
+                            </button>
+                            <button class="w-12 text-xl "><a href="#Comment" class="text-red-600" title="Write a comment"><i class="fas fa-pen"></i></a></button>
+                            <button class="w-12 text-xl"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-14">
+                    <h4 class="text-2xl text-violet-700">Giới thiệu về phim</h4>
+                    <p>Là câu chuyện về Hoa gia mấy đời trung lương, bất kể trai gái đều lấy việc bảo vệ nước nhà làm đầu. Vua tôi chan hoà, vui cười giận mắng đều vì trong lòng có tình có nghĩa. Hoa Lưu Ly, con gái của Hộ quốc Đại tướng quân, tính tình chanh chua bường bỉnh, không có một chút hào phóng chí khí của con nhà võ tướng hay tâm tư tỉ mỉ gì, từ trước đến nay luôn sống tuỳ tiện phóng khoáng. Nàng là nữ nhi được Hoa gia yêu chiều nhất, là Thái tử phi dự tuyển của Thái tử Minh Hạo, ban đầu triều đình không coi trọng, vì chiến công của Hoa gia quá cao, rất nhiều người cho rằng hoàng đế sẽ cố kỵ nhưng thật ra Hoa gia nhất mực trung thành, hoàng đế cũng rất anh mình, vì vậy ngài lựa chọn để con trai mình và Hoa Lưu Ly thành thân. Một mặt là tác thành cho tình cảm của Lưu Ly và Thái tử, một mặt vì muốn có người đến quản lý đứa con khó dạy này của ngài, cho tới nay ngoài mặt hai người là cha hiền con thảo, nhưng thật ra ngăn cách trong lòng vẫn chưa tháo gỡ được</p>
+                    <button class="bg-orange-500 rounded-lg">
+                        <a href="#" class="no-underline font-poppins text-white p-2 uppercase font-bold hover:text-emerald-950">xem trailer &triangleright;</a>
+                    </button>
+                    <div class="flex">
+                        <ul class="list-none">
+                            <li><b>Diễn viên</b></li>
+                            <li><a href="https://langgo.edu.vn/ielts-speaking-part-1-chu-de-film-movie-va-mau-tra-loi-band-9" class="no-underline text-blue-600" title="ielts-speaking-part-1-chu-de-film-movie-va-mau-tra-loi-band-9">Từ Chính Khê</a></li>
+                            <li><a href="#" class="no-underline text-blue-600">Mạnh Tử Nghĩa</a></li>
+                            <li><a href="#" class="font-bold text-blue-600">More</a></li>
+                        </ul>
+                        <ul class="list-none ml-14 ">
+                            <li><b>Đạo diễn</b></li>
+                            <li><a href="#" class="no-underline text-blue-600">Uông Hồng</a></li>
+                            <li><a href="#" class="no-underline text-blue-600">Hạ Văn Triết</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="mx-[22px]">
+            <div>
+                <span class="text-2xl before:content-['|'] before:text-[#ffec5c] before:text-[1.2rem] before:font-bold before:mr-[5px]">More like this</span>
+                <span class="float-right">
+                    <i class="far fa-question-circle text-2xl"></i>
+                </span>
+            </div>
+            <div class="grid gap-[1rem] grid-flow-col overflow-y-auto overscroll-x-contain snap-x scrollbar-none mb-3">
+                <div class="w-[380px] ml-2">
+                    <img src="https://channel.vcmedia.vn/thumb_w/640/prupload/164/2017/01/img20170125214126182.jpg" alt="Tây du ký: Mối tình ngoại truyện" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>3.5</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Tây du ký: Mối tình ngoại truyện</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="https://vcdn-giaitri.vnecdn.net/2016/01/15/Surprise-VNese-Main-Poster-1910-1452847621.jpg" alt="Tây du ký: Kiếp nạn thứ 82" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.1</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Tây du ký: Kiếp nạn thứ 82</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="https://static.kinhtedothi.vn/w960/images/upload/2023/02/09/3665749c-b4b5-4b40-ac83-2938a9655ea8.jpg" alt="Vinh quang trong thù hận" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.0</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Vinh quang trong thù hận</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="https://cdn.galaxycine.vn/media/w/e/west-doc.jpg" alt="TÂY DU KÝ: “LẠ” TRUYỆN" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.0</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Tây du ký "Lạ" truyện</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="https://pic5.iqiyipic.com/image/20201028/d0/26/v_153434477_m_601_vi_260_360.webp" alt="Đao kiếm phong ma" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>3.2</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Đao kiếm phong ma</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="/src/image/annabelle-comes-home.png" alt="Annabeell" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.2</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Annabelle- Ác quỷ trở về</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="/src/image/black-tel.png" alt="Điện thoại đen" class="w-[380px] h-[510px]">
+                    <!-- <img src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/_/i/_i_n_tho_i_en_-_24.06.2022.jpg" alt="" class="w-[380px] h-[510px]"> -->
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.5</span>
+                        <button id="DatVe" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Điện thoại đen</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[380px] ml-2">
+                    <img src="https://2.bp.blogspot.com/-2omDDU3tVhg/ZDs1bNLdd0I/AAAAAAAADFA/aJsNdBs4sh4yvLOFkQCpjS7iiDuvpcwyACNcBGAsYHQ/s360/unnamed.png" alt="Bác sĩ cha" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.5</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Bác sĩ cha</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>               
+                <div class="w-[380px] ml-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_7zECI1RNi8dfsXCHN8I7uMVBXDf8D2VPvpYTI5TNr30plhKLThGrpbkxfKK8tY2N5E&usqp=CAU" alt="Little Woman izle 2019" class="w-[380px] h-[510px]">
+                    <div class="w-[inherit]">
+                        <span><i class="fas fa-star text-[#e6ba54]"></i></span>
+                        <span>4.5</span>
+                        <button id="Datve" onclick="btn_OpenTab()" class="float-right bg-[#ff2522] rounded-[12px] font-poppins font-bold">Đăng ký mua vé</button>
+                        <p class="text-[1.2rem]">Little Woman izle 2019</p>
+                        <button class="w-5/6 bg-cyan-400 mx-5 hover:bg-[#f09e9e]">
+                            <a href="#" class="no-underline font-bold font-poppins text-[1.2rem] ">+ Watch list</a>
+                        </button>
+                    </div>
+                </div>               
+            </div>
+            <div class="bg-zinc-200">
+                <h3 class="text-2xl text-">Đánh giá của người dùng</h3>
+                <p class="text-xl bg-gradient-to-tr from-gray-800 via-yellow-500 to-fuchsia-900 bg-clip-text text-transparent">Bình luận</p>
+                <div class="h-56 overflow-y-scroll scrollbar-none">
+                    <div class="flex my-3">
+                        <img src="https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2022/02/avatar-bua-cho-FB.jpg?ssl=1" alt="User: Flork" class="w-9 h-9 rounded-[50%]">
+                        <div class="pt-[-10px] pl-3">
+                            <p><b>Phuong Nguyen</b><a href="#" class="pl-3 hover:text-blue-600">User</a></p>
+                            <p>Ánh Võ Thế thì tìm ngay tài xế riêng đưa đón tận nơi thôi ạ Đào Đình Đức em thấy xe container là em run rùi anh ơi sao bố mẹ châu á lại muốn con mình làm bác sĩ, bố mẹ nào cũng thế chắc toàn quốc toàn dân đều làm bác sĩ </p>
+                        </div>
+                    </div><hr>
+                    <div class="flex my-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6odl1X-Ii3aqXO1DZ_TNjsnZ8rWr_36zIg&usqp=CAU" alt="User: Flork" class="w-9 h-9 rounded-[50%]">
+                        <div class="pt-[-10px] pl-3">
+                            <p><b>Dang Linh NHi</b><a href="#" class="pl-3 hover:text-blue-600">User</a></p>
+                            <p>Trừ mùi 💩 hơi thủm thủm ra thì chúng nó rất đáng ewww 😀 Trước khi đi thi nhớ thắp hương ông bà, bước ra khỏi nhà hay bước vào vòng thi bằng chân phải, ăn xôi đậu xôi đỗ, niệm a di đà phật cho tâm thanh tịnh</p>
+                        </div>
+                    </div><hr>
+                    <div class="flex my-3">
+                        <img src="https://imgt.taimienphi.vn/cf/Images/np/2022/7/25/anh-avatar-viet-nam-cute-ngau-tuyet-dep-10.jpg" alt="User: Flork" class="w-9 h-9 rounded-[50%]">
+                        <div class="pt-[-10px] pl-3">
+                            <p><b>Pham Tran Phuong Uyen</b><a href="#" class="pl-3  hover:text-blue-600">User</a></p>
+                            <p>Tip của chị là không đi xe:))) chị không dám đi luôn  lên 1 năm rưỡi ròi chưa dám chạy</p>
+                        </div>
+                    </div><hr>
+                    <div class="flex my-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuPCFifX4PvoLmWgRMS-kD5bbr1p7Dtej-Tg&usqp=CAU" alt="User: Flork" class="w-9 h-9 rounded-[50%]">
+                        <div class="pt-[-10px] pl-3">
+                            <p><b>Ng Thuy Dung</b><a href="#" class="pl-3  hover:text-blue-600">User</a></p>
+                            <p>Thương quá. A Di Đà Phật. Mình xin đứng ra thay mặt chú hoài linh và cô tiên tề kêu gọi cộng đồng mạng quyên góp ủng hộ cho họ những người kém may mắn 🤧 Giàu thì ở trên mặt đất hưởng đi lặn dưới biển chi nhỉ, còn nhiều cái hay để khám phá hơn mà</p>
+                        </div>
+                    </div><hr>
+                    <div class="flex my-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr3wArtEKJ1qRNWqH99fmidR984-qxQm_DRKwufN_FyjlAcnRdTyQOIQjSahdcNLqk9Fc&usqp=CAU" alt="User: Flork" class="w-9 h-9 rounded-[50%]">
+                        <div class="pt-[-10px] pl-3">
+                            <p><b>Mai Phuong Tuyen</b><a href="#" class="pl-3  hover:text-blue-600">User</a></p>
+                            <p>Tuyệt, thế mà tui được cô Văn coi tướng bảo 2 kì hsk cuối năm được giỏi ai cũng bảo sao được. Cả bản thân cũng k tin. Thế mà đúng thật. Đúng ở chỗ 2 kì đều hsk nhưng cuối kì tuyệt nhiên thiếu 0.1 Anh và hsk thật. ĐAU phá hủy khá nhiều thứ dù điểm cao nhất lớp. Ng càng giàu ngta càng tiếc mạng. Chắc chắn phải kiểm tra/kiểm định tàu ngầm trước khi lặn. Vậy mà còn xảy ra sự cố "trông có vẻ thông thường quá mức" này thì có lẽ ko phải trùng hợp.</p>
+                        </div>
+                    </div><hr>
+                </div>
+            </div><br>
+            <div>
+                <h4 class="capitalize">hãy viết bình luận của bạn tại đây</h4>
+                <textarea name="" id="" placeholder="Write a comment" cols="180" rows="10" class="bg-zinc-200 w-11/12 rounded-2xl outline-blueEvo"></textarea>
+                <button class="float-right w-28 uppercase text-size15 text-red-600 font-bold">add</button>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-blue-600 text-white">
+        <div class="grid grid-cols-3 mx-[60px] gap-5 max-[412px]:grid max-[412px]:grid-cols-1 max-[412px]:ml-0 max-[412px]:pl-[12px]">
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">trụ sở chính</h3>
+                <p><b>TP.HCM:</b> 423 Nguyễn Huệ, Quận 1</p>
+                <p><b>Đà Nẵng:</b>34 Bach Dang street, Quận Hải Châu</p>
+                <p><b>In Japan:</b> 2-chōme-3-6 Shinsenri Nishimachi, Toyonaka, Osaka 560-0083</p>
+                <p><b>In France:</b> 7 rue du Fossé des Tanneurs - Thonon-les-bains</p>
+                <p><b>In USA:</b>19901 SKYLINE BLVD LOS GATOS CA 95033-9521 - California</p>
+                <p><b>Hotline:</b> 1075.244.123</p>
+            </div>
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">dfgg</h3>
+                <ul class="list-none leading-trungbinh">
+                    <!-- <li><a href="#" class="text-white no-underline capitalize">lâm thị yến linh</a></li> -->
+                    <li><a href="#" class="text-white no-underline capitalize">docmuentation</a></li>
+                    <li><a href="#" class="text-white no-underline capitalize">API refenrences</a></li>
+                    <li><a href="#" class="text-white no-underline capitalize">open source</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">Fanpage</h3>
+                <img src="https://www.google.com/maps/d/thumbnail?mid=1u9Xg1qeZbzwoaUIkkJRnLIglA1Y" alt="Map position" class="h-96 max-[412px]:w-[350px] max-[412px]:rounded-xl max-[412px]:mx-[30px]">
+            </div>
+        </div>
+        <div></div>
+    </footer>
+</body>
+</html>

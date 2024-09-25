@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website  - Lich Chieu</title>
+    <!-- font chữ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="https://www.vmcdn.ca/f/files/burnabynow/images/arts/movie-film-reel-getty.jpg;w=960" type="image/x-icon">
+</head>
+<body class="m-0 p-0 font-mono">
+    <script src="/src/js/index.js"></script>
+    <header class="px-4 py-6 flex items-center justify-between font-mono bg-pink-400">
+      <h3 href="" class="font-bold text-xl">
+          <a href="/src/html/index.html" class="text-red-600 font-bold text-5xl uppercase">nkm</a>
+          Nhất Kim Mai
+      </h3>
+      <nav>
+        <ul class="flex items-center justify-center font-semibold">
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 hover:text-red-500 cursor-default">THỂ LOẠI</button>
+            <div class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm"></div>
+                <div class="relative z-10">
+                  <div class="grid grid-cols-2 gap-6">
+                    <div>
+                      <ul class="mt-3 text-[13px]">
+                      <li>
+                          <a href="/src/html-TheLoai/cotrang-thanthoai.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Cổ Trang - Thần Thoại</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-TheLoai/khoahoc-vientuong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Khoa Học - Viễn Tưởng</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-TheLoai/hoathinh.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600"> Hoạt Hình</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-TheLoai/phieuluu-hanhdong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Phiêu Lưu - Hành Động</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-TheLoai/tamly-tinhcam.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Tâm lý - Tình Cảm</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-TheLoai/kinhdi-ma.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Kinh dị - Ma</a>
+                      </li>
+                      </ul>
+                    </div>
+                  <div>
+                      <ul class="mt-3 text-[13px]">
+                          <li>
+                              <a href="/src/html-TheLoai/giadinh-hocduong.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Gia Đình - Học Đường</a>
+                          </li>
+                          <li>
+                              <a href="/src/html-TheLoai/vothuat-kiemhiep.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Võ Thuật - Kiếm Hiệp</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+            <button class="hover:opacity-50 cursor-default">QUỐC GIA</button>
+            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                <div class="relative z-10">
+                  <ul class="mt-3 text-[13px]">
+                    <li>
+                      <a href="/src/html-QuocGia/vietname.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Việt Nam</a>
+                    </li>
+                    <li>
+                      <a href="/src/html-QuocGia/au-my.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Âu - Mỹ</a>
+                    </li>
+                    <li>
+                      <a href="/src/html-QuocGia/thailan.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Thái Lan</a>
+                    </li>
+                    <li>
+                      <a href="/src/html-QuocGia/ando.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Ấn Độ</a>
+                    </li>
+                    <li>
+                      <a href="/src/html-QuocGia/quocgiakhac.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Quốc Gia Khác</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+              <button class="hover:opacity-50 cursor-default">PHIM MỚI</button>
+              <div  class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+                <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                  <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                  <div class="relative z-10">
+                    <ul class="mt-3 text-[13px]">
+                      <li><a href="/src/html-Nam/nam2023.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2023</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-Nam/nam2022.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2022</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-Nam/nam2021.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2021</a>
+                      </li>
+                      <li>
+                          <a href="/src/html-Nam/nam2020.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2020</a>
+                      </li>
+                          <li>
+                              <a href="/src/html-Nam/nam2019.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">Năm 2019</a>
+                          </li>
+                          <li>
+                              <a href="/src/html-Nam/nam2018.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2018</a>
+                          </li>
+                          <li>
+                              <a href="/src/html-Nam/nam2017.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2017</a>
+                          </li>
+                          <li>
+                              <a href="/src/html-Nam/nam2016.html" class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-red-600">  Năm 2016</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+              <a href="/src/html/bapnuoc.html" class="hover:opacity-50 uppercase">đặt đồ ăn/thức uống</a>
+            </li>
+          <li class="relative px-3 py-2">
+            <a href="/src/html/LichChieu.html" class="hover:opacity-50">LỊCH CHIẾU</a>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="/src/html/login.html" class="rounded-full px-3 py-[8px] font-semibold flex items-center">
+                <svg class="stroke-current" width="10" height="10" stroke-width="2" viewBox="0 0 10 10" aria-hidden="true">
+                  <g fill-rule="evenodd">
+                    <path class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-200" d="M0 5h7"></path>
+                    <path class="opacity-100 group-hover:transform group-hover:translate-x-1 transition ease-in-out duration-200"  d="M1 1l4 4-4 4"></path>
+                  </g>
+                </svg>
+              <span class="ml-2">Đăng nhập</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+    <main>
+        <div class="">
+          <div class="flex ml-16 mr-10 gap-10 pt-3 pb-10">
+              <img src="https://as1.ftcdn.net/v2/jpg/04/66/01/16/1000_F_466011663_CZg2Dalq45RTN9RKHmJtgeNkeoLFP6Aa.jpg" alt="This is logo of NKM" class="w-28 h-28 rounded-[50%] border-dashed border-2 border-gray-600 hover:rotate-[60deg] hover:duration-[1s] hover:ease-in-out ">
+              <div>
+                <h3 class="text-2xl text-red-400 font-bold">NKM Quốc Thanh</h3>
+                  <p class="text-gray-500">271 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1,</p>
+                  <p class="text-gray-500">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Thành phố Hồ Chí Minh
+                    <i class="fas fa-bars"></i>
+                    Giá vé
+                  </p>
+                  <p>Xem lịch chiếu và mua vé NKM Quốc Thanh, rạp Cinestar toàn quốc dễ dàng - nhanh chóng tại Moveek. Rạp Cinestar Đà Lạt nằm ở quảng trường Lâm Viên, được xây dựng với tiêu chuẩn rạp Hollywood, chuẩn âm thanh Dolby 7.1, màn hình lớn, sắc nét. Cinestar Đà Lạt là rạp chiếu không phải đầu tiên ở Đà Lạt nhưng là rạp chiếu phim chuẩn quốc tế đầu tiên tại thành phố du lịch nhộn nhịp này. Sự ra đời của Cinestar Đà Lạt thực sự đã thỏa mãn cơn khát giải trí có phần ít sôi nổi của thành phố. Lựa chọn xem phim mỗi cuối tuần tại Cinestar Đà Lạt đã là 1 lựa chọn quen thuộc của nhiều khán giả trẻ.</p>
+                </div>
+          </div>
+          <div class="flex">
+            <div class="w-[900px] mx-20">
+              <nav>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">12/6 (Mondays)</button>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">13/6 (Tuesdays)</button>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">14/6 (Wednesdays)</button>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">15/6 (Thursdays)</button>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">16/6 (Fridays)</button>
+                <button class="hover:bg-zinc-200 bg-zinc-100 p-3 cursor-default">17/6</button>
+              </nav>
+              <nav class="w-[inherit]">
+                <select name="" id="" class="w-1/4">
+                  <option value="">Thành phố Hồ Chí Minh</option>
+                  <option value="">Hà Nội</option><option value="">Đà Nẵng</option><option value="">Hải Phòng</option><option value="">Hưng Yên</option><option value="">Bà Rịa Vũng Tàu</option>
+                  <option value="">Lâm Đồng</option><option value="">Thanh Hóa</option>
+                  <option value="">Thừa Thiên Huế</option>
+                  <option value="">Hà Nam</option>
+                </select>
+                <select name="" id="" class="w-2/5">
+                  <option value="">Định dạng</option>
+                  <option value="">2D</option>
+                  <option value="">3D</option>
+                </select>
+              </nav>
+              <div class="bg-yellow-300 rounded-lg">
+                <p class="px-4 py-3"> Nhấn vào suất chiếu để tiến hành mua vé</p>
+              </div>
+              <div class="w-[inherit]">
+                <div class="flex ml-5 my-3">
+                  <img src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/mavka_th_n_tho_i_r_ng_xanh_-_payoff_poster_-_kc_16.06.2023.jpg" alt="Film1" class="w-[188px] h-[268px]">
+                  <div class="ml-3 mr-20">
+                    <a href="">MAVKA: THẦN THOẠI RỪNG XANH</a>
+                    <p class="text-gray-600">Bộ phim hoạt hình Ukraine chuyển thể cực cuốn từ kịch thơ "The Forest Song" được phát hành trên 50 quốc gia trên toàn quốc chính thức đến Việt Nam vào mùa hè này.</p>
+                    <a href="#" class="text-blue-400 font-bold">Trailer</a>
+                    <p>2D Phụ đề Việt</p>
+                    <button class="p-2 text-gray-500"><a href="#">08:40</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">10:20</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">11:10</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">12:45</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">14:00</a></button>
+                  </div>
+                </div>
+                <div class="flex ml-5 my-3">
+                  <img src="https://icdn.dantri.com.vn/thumb_w/680/2023/03/20/nang-tien-ca-2-1679281800527.jpg" alt="Film1" class="w-[188px] h-[268px]">
+                  <div class="ml-3 mr-20">
+                    <a href="#">"Nàng tiên cá" (The Little Mermaid)</a>
+                    <p class="text-gray-600">Bộ phim Nàng tiên cá phiên bản người đóng với sự góp mặt của Halle Bailey và Melissa McCarthy đã lập kỷ lục mới cho hãng Disney. </p>
+                    <a href="#" class="text-blue-400 font-bold">Trailer</a>
+                    <p>2D Phụ đề Việt</p>
+                    <button class="p-2 text-gray-500"><a href="#">08:40</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">10:20</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">11:10</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">12:45</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">14:00</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">15:20</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">16:40</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">17:50</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">19:30</a></button>
+                  </div>
+                </div>
+                <div class="flex ml-5 my-3">
+                  <img src="https://cinematone.info/public/poster_002/220614232342_The-Witch-Part-2-The-Other-One_AwlOl.jpg" alt="Film1" class="w-[188px] h-[268px]">
+                  <div class="ml-3 mr-20">
+                    <a href="">Sát thủ nhân tạo 2</a>
+                    <p class="text-gray-600">Lợi dụng sự cố kinh hoàng tại cơ sở thí nghiệm, cô nàng 17 tuổi mang bí danh ARK-ADP1, một nữ sát thủ nhân tạo có siêu năng lực, đã thoát được ra ngoài. Cô bị những người tạo ra mình lẫn các thế lực bí ẩn khác truy bắt gắt gao.</p>
+                    <p>2D Phụ đề Việt</p>
+                    <a href="#" class="text-blue-400 font-bold">Trailer</a><br>
+                    <button class="p-2 text-gray-500"><a href="#">08:40</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">10:20</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">11:10</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">12:45</a></button>
+                    <button class="p-2 text-gray-500"><a href="#">14:00</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">15:20</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">16:40</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">17:50</a></button>
+                    <button class="p-2 border-black border-solid border-2 hover:bg-cyan-100"><a href="#">19:30</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mr-10 shadow-[1px_30px_-4px_10px_black]">
+              <h4 class="uppercase text-purple-400 font-bold text-2xl">Tin điện ảnh</h4>
+              <ul class="list-decimal marker:text-green-300">
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]" title="Agency: Ngập tràn drama công sơ trong từng phim">Agency: Ngập tràn drama công sơ trong từng phim</a>
+                </li>
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]" title="Trailer mới Ninja Rùa: Hỗn Loạn Tuổi Dậy Thì hé lộ phản diện 'dị biệt'">Trailer mới Ninja Rùa: Hỗn Loạn Tuổi Dậy Thì hé lộ phản diện 'dị biệt'</a>
+                </li>
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Phim tài liệu về J-Hope và Suga ra mắt nhân kỷ niệm 10 năm debut</a>
+                </li>
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Người Nhện: Du Hành Vũ Trụ Nhện - Chuyện  gì đang xảy qua với Người Nhện?</a>
+                </li>
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Insidious 5: Cửa Đỏ Vô Định - Phần cuối cùng hay 'reboot' tiềm năng?</a>
+                </li>
+                <li>
+                  <a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Mickey 17 (2024) - Dự án tái xuất của đạo diễn Ký Sinh Trùng được ngợi khen</a>
+                </li>
+                <li><a href="" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Quý Công Tử - Những bộ phim noir giật gân đen tối hay nhất thập kỷ của đạo diễn Park Hoon Jung</a></li>
+              </ul>
+              <h4 class="uppercase underline text-amber-400 font-bold text-2xl">Tin hot 24h qua <span class="text-3xl">&RightTriangle;&RightTriangle;&RightTriangle;</span></h4>
+              <ul class="">
+                <li class="flex gap-5 my-2">
+                  <img src="https://cdn-i.vtcnews.vn/upload/2023/06/30/cau-31-5718-1688097107-18572264.jpeg" alt="" class="w-[100px]">
+                  <a href="#" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Câu hỏi tiếng Anh trong kỳ thi tốt nghiệp THPTQG 2023 làm rung chuyển cả giới Tiếng Anh , giới IELTS</a>
+                </li>
+                <li class="flex gap-5 my-2">
+                  <img src="https://ben.com.vn/tin-tuc/wp-content/uploads/2021/09/khanh-vy.jpg" alt="Khánh Vy đạt học bổng toàn phần của Chính phủ Anh sau 3 lần bị từ chối" class="w-[100px]">
+                  <a href="https://kenh14.vn/mc-khanh-vy-dat-hoc-bong-toan-phan-cua-chinh-phu-anh-sau-3-lan-bi-tu-choi-20230619142940386.chn" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]" target="_blank" title="MC Khánh Vy đạt học bổng toàn phần của Chính phủ Anh sau 3 lần bị từ chối">MC Khánh Vy đạt học bổng toàn phần của Chính phủ Anh sau 3 lần bị từ chối</a>
+                </li>
+                <li class="flex gap-5 my-2">
+                  <img src="https://i1-vnexpress.vnecdn.net/2023/06/23/bat-nghi-pham-vu-Dak-Lak-9265-1687510717.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=s3NnYwTNoPp3lwryyFSaIA" alt="" class="w-[100px]">
+                  <a href="#" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">75 người tấn công trụ sở xã ở Đăk Lăk bị điều tra tội khủng bố</a>
+                </li>
+                <li class="flex gap-5 my-2">
+                  <img src="https://static-images.vnncdn.net/files/publish/2023/6/21/t224u-lan-541.jpg" alt="" class="w-[100px]">
+                  <a href="#" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">Khoảnh khắc mô phỏng tàu ngầm Titan nổ tung trong tích tắc</a>
+                </li>
+                <!-- <li><a href="#" class="text-green-700 font-bold hover:text-red-800 hover:ease-in hover:duration-[12ms]">ggg</a></li> -->
+              </ul>
+
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="bg-blue-600 text-white">
+        <div class="grid grid-cols-3 mx-[60px] gap-5 max-[412px]:grid max-[412px]:grid-cols-1 max-[412px]:ml-0 max-[412px]:pl-[12px]">
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">trụ sở chính</h3>
+                <p><b>TP.HCM:</b> 423 Nguyễn Huệ, Quận 1</p>
+                <p><b>Đà Nẵng:</b>34 Bach Dang street, Quận Hải Châu</p>
+                <p><b>In Japan:</b> 2-chōme-3-6 Shinsenri Nishimachi, Toyonaka, Osaka 560-0083</p>
+                <p><b>In France:</b> 7 rue du Fossé des Tanneurs - Thonon-les-bains</p>
+                <p><b>In USA:</b>19901 SKYLINE BLVD LOS GATOS CA 95033-9521 - California</p>
+                <p><b>Hotline:</b> 1075.244.123</p>
+            </div>
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">dfgg</h3>
+                <ul class="list-none leading-trungbinh">
+                    <!-- <li><a href="#" class="text-white no-underline capitalize">lâm thị yến linh</a></li> -->
+                    <li><a href="#" class="text-white no-underline capitalize">docmuentation</a></li>
+                    <li><a href="#" class="text-white no-underline capitalize">API refenrences</a></li>
+                    <li><a href="#" class="text-white no-underline capitalize">open source</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="uppercase text-lime-900 text-2xl">Fanpage</h3>
+                <img src="https://www.google.com/maps/d/thumbnail?mid=1u9Xg1qeZbzwoaUIkkJRnLIglA1Y" alt="Map position" class="h-96 max-[412px]:w-[350px] max-[412px]:rounded-xl max-[412px]:mx-[30px]">
+            </div>
+        </div>
+        <div></div>
+    </footer>
+</body>
+</html>
